@@ -204,6 +204,7 @@ def player_stats()
       end
     end
   end
+end
   player_stats
 end
 
