@@ -192,7 +192,7 @@ def big_shoe_rebounds
 end
 
 
-def player_stats()
+def player_stats(name)
   player_stats = {}
   game_hash.each do |key, value|
     value[:players].each do |player|
