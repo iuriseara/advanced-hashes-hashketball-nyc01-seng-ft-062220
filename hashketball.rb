@@ -200,6 +200,10 @@ def player_stats()
         player.each do |stat, value|
           if stat != :player_name
             player_stats[stat] = value
+        end
+      end
+    end
+  end
 end
 
 
